@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.conteiner{
+    background-color: rgba(0, 234, 255, 0.397);
+    
+}
+
+/* menu de navegação */
+nav ul  {
+	background-position: center;
+    background-color:blue;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 1;
+	display: inline-block;
+	width: 100%;
+	margin-top: 0;
+	padding: 10px; 
+	position: fixed;
+	float: right;
+	text-align: center;
+}
+
+nav ul li {
+	list-style: none;
+	font-size: 14px;
+	float: right;
+	padding-left: 0px;
+	
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 0px 20px;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: rgb(0, 0, 0);
+	text-align: center;
+	background-color: orange;
+    transition: 600ms;
+}
+/* menu de navegação */
+.botão{
+    padding: 20px;
+}
+header > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(228, 119, 150);
+    text-align: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.662);
+    padding-top: 100px;
+    
+}
+header {
+    
+    background-image: url("https://mulheresacesta.com.br/wp-content/uploads/2021/02/bola-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 5%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+p{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: justify;
+}
+
+button {
+    border-radius: 10%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    padding: 20px;
+    
+
+}
+.gumble{
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.datai{
+    align-items: center;
+    padding: 20px;
+}
+
+footer{
+    background-position: center;
+    background-color:blue;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: inline-block;
+	width: 100%;
+}
+
+.rodapé{
+    color: aliceblue;
+	text-align:center;
+	margin: 250px auto auto auto;
+}
+
+footer h2 {
+    display: inline-block;
+	font-size: 16px;
+}
+
+footer li {
+    display: inline-block;
+	text-align: center;
+	font-size: 0.8em;
+	width: 20%;
+	margin: 2% 5% 5% 5%;
+	vertical-align: top;
+}
+
+footer li p{
+    margin: 0 px auto 15px auto;
+	padding: 0px;
+	vertical-align: top;
+
+}
+
+.tel a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
